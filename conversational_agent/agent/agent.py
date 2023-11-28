@@ -2,8 +2,6 @@ from langchain import OpenAI, LLMChain
 from langchain import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from dotenv import find_dotenv, load_dotenv
-import requests
-from playsound import playsound
 import os
 
 load_dotenv(find_dotenv())
