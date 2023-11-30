@@ -34,7 +34,7 @@ body {
     background: dimgray;
     transform: scaleX(0);
     transform-origin: 0% 50%;
-    animation: anim-overlay 0.3s;
+    animation: anim-overlay 0.3Ss;
     opacity: 100%;
 }
 
