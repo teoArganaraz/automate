@@ -1,3 +1,4 @@
 .env
-env/
-db-env/
+env
+db-env
+linkedin-env
