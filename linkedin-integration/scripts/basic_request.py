@@ -8,11 +8,11 @@ ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 restli_client = RestliClient()
 
 response = restli_client.get(
-  resource_path="/userinfo",
+  resource_path="/me",
   access_token=ACCESS_TOKEN
 )
 
-print(response.entity)
+#print(response.entity)
 
 if __name__ == "__main__":
   print(response.entity)
