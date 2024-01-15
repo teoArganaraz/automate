@@ -11,13 +11,12 @@ LINKEDIN_USER_PASSWORD = os.getenv("LINKEDIN_USER_PASSWORD")
 api = Linkedin(LINKEDIN_USER_EMAIL, LINKEDIN_USER_PASSWORD)
 
 # GET a profile
-profile = api.get_profile('user_id')
+profile = api.get_profile('max-caceres')
 
 # Send a message
-status = api.send_message(message_body="Hello World!",
-                          recipients=[api.get_profile("user_id").get("profile_urn")])
+status = api.send_message(message_body="Fue el URN",
+                         recipients=["ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g"])
 
 
 if __name__ == "__main__":
-    if status != True:
-        print("El mensaje fue enviado exitosamente!")
+    print(status)
