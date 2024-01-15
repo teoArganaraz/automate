@@ -2,3 +2,4 @@
 env
 db-env
 linkedin-env
+*-env
