@@ -19,4 +19,4 @@ status = api.send_message(message_body="Fue el URN",
 
 
 if __name__ == "__main__":
-    print(status)
+    print(api.get_conversation_details("ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g"))
