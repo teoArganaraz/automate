@@ -1,4 +1,6 @@
 # Installation
+1. Create a python enviroment (python-version==3.9.1)
+2. pip install `requirements.txt`
 
 # Linkedin Integration
 This folder contains a series of examples of the use of Linkedin APIs in order to execute the following actions:
