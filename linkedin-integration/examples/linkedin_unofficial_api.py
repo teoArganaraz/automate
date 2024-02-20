@@ -18,7 +18,7 @@ conversation_urn = "2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw=="
 # GET a profile
 profile = api.get_profile('max-caceres')
 conversations = api.get_conversations()
-conversation = api.get_conversatio(conversation_urn)
+conversation = api.get_conversation(conversation_urn)
 last_message = api.get_conversation_details(urn)
 
 # Serializing json
@@ -28,15 +28,15 @@ json_conversation = json.dumps(conversation)
 json_last_message = json.dumps(last_message)
  
 # Writing to sample.json
-with open(".\linkedin_integration\examples\profile.json", "w") as outfile:
+with open(".\examples\profile.json", "w") as outfile:
     outfile.write(json_object)
 
-with open(".\linkedin_integration\examples\conversations.json", "w") as outfile:
+with open(".\examples\conversations.json", "w") as outfile:
     outfile.write(json_conversations)
 
-with open(f".\linkedin_integration\examples\conversation_{id}.json", "w") as outfile:
+with open(f".\examples\conversation_{id}.json", "w") as outfile:
     outfile.write(json_object)
 
-with open(f".\linkedin_integration\examples\last_message_{id}.json", "w") as outfile:
+with open(f".\examples\last_message_{id}.json", "w") as outfile:
     outfile.write(json_conversations)
 
