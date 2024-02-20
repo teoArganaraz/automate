@@ -1,0 +1,224 @@
+{
+  "dashEntityUrn": "urn:li:fsd_conversation:2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==",
+  "inboxType": "PRIMARY",
+  "notificationStatus": "ACTIVE",
+  "read": true,
+  "groupChat": false,
+  "totalEventCount": 11,
+  "unreadCount": 0,
+  "lastActivityAt": 1706808369660,
+  "firstMessageUrn": "urn:li:fs_event:(2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==,2-MTcwNTA5MTk5NDg5NmI1NjM3OC0wMDQmYWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==)",
+  "backendUrn": "urn:li:messagingThread:2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==",
+  "receipts": [
+    {
+      "fromEntity": "urn:li:fs_miniProfile:ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g",
+      "seenReceipt": {
+        "seenAt": 1706808369320,
+        "eventUrn": "urn:li:fs_event:(2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==,2-MTcwNjgwODM2OTMyMGI4Mjk2OC0wMDMmYWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==)"
+      },
+      "fromParticipant": { "string": "urn:li:member:590062033" }
+    }
+  ],
+  "lastReadAt": 1706808436560,
+  "archived": false,
+  "blocked": false,
+  "starred": false,
+  "entityUrn": "urn:li:fs_conversation:2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==",
+  "sdkEntityUrn": "urn:li:msg_conversation:(urn:li:fsd_profile:ACoAAC8KJfwBY6D34ofE8V8MKr22TUO4SlIjAnU,2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==)",
+  "viewerCurrentParticipant": true,
+  "featureTypes": [
+    "REACTIONS",
+    "CREATE_NEW_GROUP_CHAT",
+    "CREATE_LINKEDIN_VIRTUAL_MEETING"
+  ],
+  "withNonConnection": false,
+  "muted": false,
+  "events": [
+    {
+      "createdAt": 1706808369634,
+      "reactionSummaries": [],
+      "dashEntityUrn": "urn:li:fsd_message:2-MTcwNjgwODM2OTMyMGI4Mjk2OC0wMDMmYWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==",
+      "quickReplyRecommendations": [
+        {
+          "replyType": "TEXT",
+          "objectUrn": "urn:li:quickReply:NAGYfF69sCzVvAEW8h4i-nKITu-iIJv7I3GkRWfLMEZW9A",
+          "content": { "text": "Sent" },
+          "trackingId": "SjMJ7BplTmqn6PblRC2dKQ=="
+        },
+        {
+          "replyType": "TEXT",
+          "objectUrn": "urn:li:quickReply:NAFBOjbXuNbUcwZnu7asLj-W7SZ5jpByzVr6VRHdYSpwiQ",
+          "content": { "text": "Thanks" },
+          "trackingId": "0YdC49qQQbKl9U9Szd5gZg=="
+        }
+      ],
+      "entityUrn": "urn:li:fs_event:(2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==,2-MTcwNjgwODM2OTMyMGI4Mjk2OC0wMDMmYWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==)",
+      "eventContent": {
+        "com.linkedin.voyager.messaging.event.MessageEvent": {
+          "customContent": {
+            "com.linkedin.voyager.messaging.shared.ThirdPartyMedia": {
+              "mediaType": "TENOR_GIF",
+              "id": "19294565",
+              "media": {
+                "previewgif": {
+                  "originalHeight": 220,
+                  "originalWidth": 220,
+                  "url": "https://snap.licdn.com/tr/G7p7N-IE6DAAAAAM/oh-yes-eddie-murphy.gif"
+                },
+                "gif": {
+                  "originalHeight": 498,
+                  "originalWidth": 498,
+                  "url": "https://snap.licdn.com/tr/G7p7N-IE6DAAAAAC/oh-yes-eddie-murphy.gif"
+                }
+              },
+              "title": "Oh Yes Eddie Murphy GIF"
+            }
+          },
+          "messageBodyRenderFormat": "DEFAULT",
+          "body": "",
+          "attributedBody": { "text": "" }
+        }
+      },
+      "subtype": "MEMBER_TO_MEMBER",
+      "from": {
+        "com.linkedin.voyager.messaging.MessagingMember": {
+          "miniProfile": {
+            "memorialized": false,
+            "firstName": "Max",
+            "lastName": "Caceres",
+            "dashEntityUrn": "urn:li:fsd_profile:ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g",
+            "occupation": "Presales Engineer at OpenMind Networks",
+            "objectUrn": "urn:li:member:590062033",
+            "entityUrn": "urn:li:fs_miniProfile:ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g",
+            "backgroundImage": {
+              "com.linkedin.common.VectorImage": {
+                "artifacts": [
+                  {
+                    "width": 800,
+                    "fileIdentifyingUrlPathSegment": "200_800/0/1652904157659?e=1714003200&v=beta&t=KVx5jBRPqoBeT4PHnENHEMbJNMlb5U3fQO7glAnfSjw",
+                    "expiresAt": 1714003200000,
+                    "height": 200
+                  },
+                  {
+                    "width": 800,
+                    "fileIdentifyingUrlPathSegment": "350_1400/0/1652904157659?e=1714003200&v=beta&t=UR2UPtu5vOcON6gN5L3ga6SSOOENccVkfRoCLkAioL0",
+                    "expiresAt": 1714003200000,
+                    "height": 200
+                  }
+                ],
+                "rootUrl": "https://media.licdn.com/dms/image/C4D16AQGwxAtMy3U4TQ/profile-displaybackgroundimage-shrink_"
+              }
+            },
+            "publicIdentifier": "max-caceres",
+            "picture": {
+              "com.linkedin.common.VectorImage": {
+                "artifacts": [
+                  {
+                    "width": 100,
+                    "fileIdentifyingUrlPathSegment": "100_100/0/1661961004908?e=1714003200&v=beta&t=Kll5X9NJ9iy5p2qmvfKSclkQ-qCCFmjx6M_6dSvB-P4",
+                    "expiresAt": 1714003200000,
+                    "height": 100
+                  },
+                  {
+                    "width": 200,
+                    "fileIdentifyingUrlPathSegment": "200_200/0/1661961004908?e=1714003200&v=beta&t=atbxgtgVT8-vey5CYjb1MlbBfo8XEO6cFUa7ftGCyNg",
+                    "expiresAt": 1714003200000,
+                    "height": 200
+                  },
+                  {
+                    "width": 400,
+                    "fileIdentifyingUrlPathSegment": "400_400/0/1661961004908?e=1714003200&v=beta&t=zKlhhgqPONjrsSO1CyXcmvEvWDwPF9EtMet-dd1QcUc",
+                    "expiresAt": 1714003200000,
+                    "height": 400
+                  },
+                  {
+                    "width": 800,
+                    "fileIdentifyingUrlPathSegment": "800_800/0/1661961004908?e=1714003200&v=beta&t=qNnTb-obHpmXqxr0yvqS5eFcz0h8FXQc2a4oXlDaeog",
+                    "expiresAt": 1714003200000,
+                    "height": 800
+                  }
+                ],
+                "rootUrl": "https://media.licdn.com/dms/image/C5603AQGizyssUeG3sA/profile-displayphoto-shrink_"
+              }
+            },
+            "trackingId": "UP+64f8SRU6CuBA/T8EPyQ=="
+          },
+          "entityUrn": "urn:li:fs_messagingMember:(2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==,ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g)",
+          "nameInitials": "MC"
+        }
+      },
+      "previousEventInConversation": "urn:li:fs_event:(2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==,2-MTcwNjgwNzg2NDY2NGIxMDY0OS0wMDQmYWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==)",
+      "backendUrn": "urn:li:messagingMessage:2-MTcwNjgwODM2OTMyMGI4Mjk2OC0wMDMmYWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw=="
+    }
+  ],
+  "participants": [
+    {
+      "com.linkedin.voyager.messaging.MessagingMember": {
+        "miniProfile": {
+          "memorialized": false,
+          "firstName": "Max",
+          "lastName": "Caceres",
+          "dashEntityUrn": "urn:li:fsd_profile:ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g",
+          "occupation": "Presales Engineer at OpenMind Networks",
+          "objectUrn": "urn:li:member:590062033",
+          "entityUrn": "urn:li:fs_miniProfile:ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g",
+          "backgroundImage": {
+            "com.linkedin.common.VectorImage": {
+              "artifacts": [
+                {
+                  "width": 800,
+                  "fileIdentifyingUrlPathSegment": "200_800/0/1652904157659?e=1714003200&v=beta&t=KVx5jBRPqoBeT4PHnENHEMbJNMlb5U3fQO7glAnfSjw",
+                  "expiresAt": 1714003200000,
+                  "height": 200
+                },
+                {
+                  "width": 800,
+                  "fileIdentifyingUrlPathSegment": "350_1400/0/1652904157659?e=1714003200&v=beta&t=UR2UPtu5vOcON6gN5L3ga6SSOOENccVkfRoCLkAioL0",
+                  "expiresAt": 1714003200000,
+                  "height": 200
+                }
+              ],
+              "rootUrl": "https://media.licdn.com/dms/image/C4D16AQGwxAtMy3U4TQ/profile-displaybackgroundimage-shrink_"
+            }
+          },
+          "publicIdentifier": "max-caceres",
+          "picture": {
+            "com.linkedin.common.VectorImage": {
+              "artifacts": [
+                {
+                  "width": 100,
+                  "fileIdentifyingUrlPathSegment": "100_100/0/1661961004908?e=1714003200&v=beta&t=Kll5X9NJ9iy5p2qmvfKSclkQ-qCCFmjx6M_6dSvB-P4",
+                  "expiresAt": 1714003200000,
+                  "height": 100
+                },
+                {
+                  "width": 200,
+                  "fileIdentifyingUrlPathSegment": "200_200/0/1661961004908?e=1714003200&v=beta&t=atbxgtgVT8-vey5CYjb1MlbBfo8XEO6cFUa7ftGCyNg",
+                  "expiresAt": 1714003200000,
+                  "height": 200
+                },
+                {
+                  "width": 400,
+                  "fileIdentifyingUrlPathSegment": "400_400/0/1661961004908?e=1714003200&v=beta&t=zKlhhgqPONjrsSO1CyXcmvEvWDwPF9EtMet-dd1QcUc",
+                  "expiresAt": 1714003200000,
+                  "height": 400
+                },
+                {
+                  "width": 800,
+                  "fileIdentifyingUrlPathSegment": "800_800/0/1661961004908?e=1714003200&v=beta&t=qNnTb-obHpmXqxr0yvqS5eFcz0h8FXQc2a4oXlDaeog",
+                  "expiresAt": 1714003200000,
+                  "height": 800
+                }
+              ],
+              "rootUrl": "https://media.licdn.com/dms/image/C5603AQGizyssUeG3sA/profile-displayphoto-shrink_"
+            }
+          },
+          "trackingId": "eqEQ3YNZRHCL5/myx+prGg=="
+        },
+        "entityUrn": "urn:li:fs_messagingMember:(2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw==,ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g)",
+        "nameInitials": "MC"
+      }
+    }
+  ],
+  "id": "2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw=="
+}
