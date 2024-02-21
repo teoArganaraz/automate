@@ -11,12 +11,12 @@ LINKEDIN_USER_PASSWORD = os.getenv("LINKEDIN_USER_PASSWORD")
 # Authenticate using any Linkedin account credentials
 api = Linkedin(LINKEDIN_USER_EMAIL, LINKEDIN_USER_PASSWORD)
 
-id = "max-caceres"
-urn = "ACoAACMrodEB9G-s6Pckz-OzPBqPq_1Cqlpz49g"
-conversation_urn = "2-YWEzMGMwMWItN2U1Ny00MjEyLTg5YTEtY2Y3Njk4YzUzZDQ5XzAxMw=="
+id = "public_id"
+urn = "profile_urn"
+conversation_urn = "conversation_urn"
 
 # GET a profile
-profile = api.get_profile('max-caceres')
+profile = api.get_profile(id)
 conversations = api.get_conversations()
 conversation = api.get_conversation(conversation_urn)
 last_message = api.get_conversation_details(urn)
@@ -28,15 +28,15 @@ json_conversation = json.dumps(conversation)
 json_last_message = json.dumps(last_message)
  
 # Writing to sample.json
-with open(".\examples\profile.json", "w") as outfile:
+with open(f".\examples\profile_{id}.json", "w") as outfile:
     outfile.write(json_object)
 
 with open(".\examples\conversations.json", "w") as outfile:
     outfile.write(json_conversations)
 
-with open(f".\examples\conversation_{id}.json", "w") as outfile:
-    outfile.write(json_object)
+with open(f".\examples\conversation_{conversation_urn}.json", "w") as outfile:
+    outfile.write(json_conversation)
 
 with open(f".\examples\last_message_{id}.json", "w") as outfile:
-    outfile.write(json_conversations)
+    outfile.write(json_last_message)
 
